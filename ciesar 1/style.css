@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f2f2f2;
+    color:#222;
+}
+
+header,footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    list-style:none;
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+main{
+    max-width:900px;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.center{
+    text-align:center;
+}
+
+.buttons button,
+.button,
+.reset{
+    padding:12px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    background:#0077ff;
+    color:white;
+}
+
+.result p,
+.score p{
+    margin:10px 0;
+}
+body{
+    background: gray;
+}
